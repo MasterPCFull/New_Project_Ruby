@@ -29,3 +29,28 @@ FOREIGN KEY (`airline_id`)
   [1m[36mTRANSACTION (5.7ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('3188511547458452775')[0m
   [1m[35m (1.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mAirline Load (12.3ms)[0m  [1m[34mSELECT `airlines`.* FROM `airlines` ORDER BY `airlines`.`id` ASC LIMIT 1[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.6ms)[0m  [1m[32mINSERT INTO `airlines` (`name`, `image_url`, `slug`, `created_at`, `updated_at`) VALUES ('United Airlines', 'https://open-flights.s3.amazonaws.com/United-Airlines.png', 'united-airlines', '2021-11-16 18:05:25.318071', '2021-11-16 18:05:25.318071')[0m
+  [1m[36mTRANSACTION (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (1.4ms)[0m  [1m[32mINSERT INTO `airlines` (`name`, `image_url`, `slug`, `created_at`, `updated_at`) VALUES ('Southwest', 'https://open-flights.s3.amazonaws.com/Southwest-Airlines.png', 'southwest', '2021-11-16 18:05:25.428917', '2021-11-16 18:05:25.428917')[0m
+  [1m[36mTRANSACTION (13.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.6ms)[0m  [1m[32mINSERT INTO `airlines` (`name`, `image_url`, `slug`, `created_at`, `updated_at`) VALUES ('Delta', 'https://open-flights.s3.amazonaws.com/Delta.png', 'delta', '2021-11-16 18:05:25.460911', '2021-11-16 18:05:25.460911')[0m
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.5ms)[0m  [1m[32mINSERT INTO `airlines` (`name`, `image_url`, `slug`, `created_at`, `updated_at`) VALUES ('Alaska Airlines', 'https://open-flights.s3.amazonaws.com/Alaska-Airlines.png', 'alaska-airlines', '2021-11-16 18:05:25.492433', '2021-11-16 18:05:25.492433')[0m
+  [1m[36mTRANSACTION (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.5ms)[0m  [1m[32mINSERT INTO `airlines` (`name`, `image_url`, `slug`, `created_at`, `updated_at`) VALUES ('JetBlue', 'https://open-flights.s3.amazonaws.com/JetBlue.png', 'jetblue', '2021-11-16 18:05:25.515281', '2021-11-16 18:05:25.515281')[0m
+  [1m[36mTRANSACTION (26.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.6ms)[0m  [1m[32mINSERT INTO `airlines` (`name`, `image_url`, `slug`, `created_at`, `updated_at`) VALUES ('American Airlines', 'https://open-flights.s3.amazonaws.com/American-Airlines.png', 'american-airlines', '2021-11-16 18:05:25.567559', '2021-11-16 18:05:25.567559')[0m
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mAirline Load (0.5ms)[0m  [1m[34mSELECT `airlines`.* FROM `airlines` ORDER BY `airlines`.`id` ASC LIMIT 1[0m
+  [1m[35m (51.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `airlines`[0m
+  [1m[36mAirline Load (11.0ms)[0m  [1m[34mSELECT `airlines`.* FROM `airlines` ORDER BY `airlines`.`id` ASC LIMIT 1[0m
+  [1m[36mAirline Load (0.7ms)[0m  [1m[34mSELECT `airlines`.* FROM `airlines` ORDER BY `airlines`.`id` ASC LIMIT 1[0m
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m

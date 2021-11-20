@@ -1,13 +1,10 @@
 Rails.application.routes.draw do
-  root 'pages#index'
-
+  root 'apps#index'
   namespace :api do
-    nomespace :v1 do
-      resoirces airline, param :slug
+    namespace :v1 do
+      resources :airlines, param: :slug
       resources :reviews, only: [:create, :destroy]
     end
   end
-
-get '*path', to: 'pages#index', via: :all
-
+  get '*path', to: 'apps#index', via: :all
 end

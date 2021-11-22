@@ -2491,3 +2491,2110 @@ Processing by AppsController#index as HTML
 Completed 200 OK in 73ms (Views: 61.8ms | ActiveRecord: 0.0ms | Allocations: 4753)
 
 
+Started GET "/" for ::1 at 2021-11-21 11:57:10 -0300
+  [1m[35m (40.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 344)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2021-11-21 11:57:13 -0300
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 4271dc1b9d1a3b8a7675
+Version: webpack 4.46.0
+Time: 15970ms
+Built at: 21/11/2021 11:57:48
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-5e4e8b6c6c0b56d0b4b6.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-5e4e8b6c6c0b56d0b4b6.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-5e4e8b6c6c0b56d0b4b6.js js/index-5e4e8b6c6c0b56d0b4b6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 1.01 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 10:42-48
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 34827.7ms | Allocations: 4195)
+Completed 200 OK in 34857ms (Views: 34855.4ms | ActiveRecord: 0.0ms | Allocations: 4623)
+
+
+[Webpacker] Compilation failed:
+Hash: 4271dc1b9d1a3b8a7675
+Version: webpack 4.46.0
+Time: 15946ms
+Built at: 21/11/2021 11:57:48
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-5e4e8b6c6c0b56d0b4b6.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-5e4e8b6c6c0b56d0b4b6.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-5e4e8b6c6c0b56d0b4b6.js js/index-5e4e8b6c6c0b56d0b4b6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 1.01 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 10:42-48
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 37419.7ms | Allocations: 14513)
+Completed 200 OK in 37523ms (Views: 37505.0ms | ActiveRecord: 0.0ms | Allocations: 18000)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:14:48 -0300
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 4271dc1b9d1a3b8a7675
+Version: webpack 4.46.0
+Time: 6540ms
+Built at: 21/11/2021 12:15:02
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-5e4e8b6c6c0b56d0b4b6.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-5e4e8b6c6c0b56d0b4b6.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-5e4e8b6c6c0b56d0b4b6.js js/index-5e4e8b6c6c0b56d0b4b6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 1.01 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 10:42-48
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 14443.4ms | Allocations: 4346)
+Completed 200 OK in 14447ms (Views: 14446.3ms | Allocations: 4727)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:22:48 -0300
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 343)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 151.0ms | Allocations: 5857)
+Completed 200 OK in 185ms (Views: 174.4ms | ActiveRecord: 0.0ms | Allocations: 9172)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:23:07 -0300
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 3134)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms | Allocations: 3522)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:24:46 -0300
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 343)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 158.7ms | Allocations: 5843)
+Completed 200 OK in 184ms (Views: 175.8ms | ActiveRecord: 0.0ms | Allocations: 9158)
+
+
+Started GET "/routes" for ::1 at 2021-11-21 12:34:00 -0300
+  [1m[35m (6.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AppsController#index as HTML
+  Parameters: {"path"=>"routes"}
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 343)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.2ms | Allocations: 5844)
+Completed 200 OK in 113ms (Views: 103.3ms | ActiveRecord: 0.0ms | Allocations: 9159)
+
+
+Started GET "/routes" for ::1 at 2021-11-21 12:34:07 -0300
+Processing by AppsController#index as HTML
+  Parameters: {"path"=>"routes"}
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.8ms | Allocations: 3132)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms | Allocations: 3521)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:34:23 -0300
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.3ms | Allocations: 2947)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms | Allocations: 3271)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:34:25 -0300
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 89.4ms | Allocations: 2947)
+Completed 200 OK in 107ms (Views: 106.1ms | ActiveRecord: 0.0ms | Allocations: 3271)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:44:06 -0300
+Processing by AppsController#index as HTML
+Completed 406 Not Acceptable in 44ms (Allocations: 1831)
+
+
+  
+ActionController::MissingExactTemplate (AppsController#index is missing a template for request formats: text/html):
+  
+actionpack (6.1.4.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.4.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.4.1) lib/action_text/engine.rb:59:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.4.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.4.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-11-21 12:44:48 -0300
+Processing by AppsController#index as HTML
+  Rendering apps/index.html.erb
+  Rendered apps/index.html.erb (Duration: 0.5ms | Allocations: 133)
+Completed 200 OK in 18ms (Views: 14.7ms | Allocations: 1759)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:44:52 -0300
+Processing by AppsController#index as HTML
+  Rendering apps/index.html.erb
+  Rendered apps/index.html.erb (Duration: 0.2ms | Allocations: 37)
+Completed 200 OK in 7ms (Views: 6.8ms | Allocations: 406)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:44:53 -0300
+Processing by AppsController#index as HTML
+  Rendering apps/index.html.erb
+  Rendered apps/index.html.erb (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 398)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:45:13 -0300
+Processing by AppsController#index as HTML
+  Rendering apps/index.html.erb
+  Rendered apps/index.html.erb (Duration: 0.1ms | Allocations: 37)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 392)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:45:15 -0300
+Processing by AppsController#index as HTML
+  Rendering apps/index.html.erb
+  Rendered apps/index.html.erb (Duration: 0.1ms | Allocations: 37)
+Completed 200 OK in 16ms (Views: 15.9ms | Allocations: 390)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:45:15 -0300
+Processing by AppsController#index as HTML
+  Rendering apps/index.html.erb
+  Rendered apps/index.html.erb (Duration: 0.2ms | Allocations: 37)
+Completed 200 OK in 13ms (Views: 12.1ms | Allocations: 391)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:45:16 -0300
+Processing by AppsController#index as HTML
+  Rendering apps/index.html.erb
+  Rendered apps/index.html.erb (Duration: 0.1ms | Allocations: 37)
+Completed 200 OK in 13ms (Views: 8.4ms | Allocations: 390)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:45:17 -0300
+Processing by AppsController#index as HTML
+  Rendering apps/index.html.erb
+  Rendered apps/index.html.erb (Duration: 0.1ms | Allocations: 37)
+Completed 200 OK in 3ms (Views: 2.2ms | Allocations: 391)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:52:45 -0300
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 343)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.0ms | Allocations: 5840)
+Completed 200 OK in 100ms (Views: 89.8ms | ActiveRecord: 0.0ms | Allocations: 9155)
+
+
+Started GET "/" for ::1 at 2021-11-21 12:53:09 -0300
+Processing by AppsController#index as HTML
+Completed 406 Not Acceptable in 39ms (ActiveRecord: 0.0ms | Allocations: 1861)
+
+
+  
+ActionController::MissingExactTemplate (AppsController#index is missing a template for request formats: text/html):
+  
+actionpack (6.1.4.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.4.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.4.1) lib/action_text/engine.rb:59:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.4.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.4.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-11-21 13:05:23 -0300
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+  Rendered apps/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.2ms | Allocations: 3488)
+Completed 200 OK in 93ms (Views: 80.7ms | Allocations: 4709)
+
+
+Started GET "/" for ::1 at 2021-11-21 13:06:44 -0300
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered apps/index.html.erb within layouts/application (Duration: 12.4ms | Allocations: 1836)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 4961)
+Completed 200 OK in 68ms (Views: 52.5ms | Allocations: 6170)
+
+
+Started GET "/" for ::1 at 2021-11-21 13:07:40 -0300
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered apps/index.html.erb within layouts/application (Duration: 148.3ms | Allocations: 5719)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 168.1ms | Allocations: 8203)
+Completed 200 OK in 209ms (Views: 184.1ms | ActiveRecord: 0.0ms | Allocations: 11518)
+
+
+Started GET "/" for ::1 at 2021-11-21 13:07:43 -0300
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered apps/index.html.erb within layouts/application (Duration: 43.1ms | Allocations: 3088)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.8ms | Allocations: 5383)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.0ms | Allocations: 5772)
+
+
+Started GET "/" for ::1 at 2021-11-21 13:07:45 -0300
+Processing by AppsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering apps/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered apps/index.html.erb within layouts/application (Duration: 25.5ms | Allocations: 2902)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.1ms | Allocations: 5195)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms | Allocations: 5519)
+
+
+Started GET "/" for ::1 at 2021-11-21 13:11:44 -0300
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (uninitialized constant AppsController
+Did you mean?  PagesController):
+  
+Started GET "/" for ::1 at 2021-11-21 13:12:37 -0300
+  
+ActionController::RoutingError (uninitialized constant AppsController
+Did you mean?  PagesController):
+  
+Started GET "/" for ::1 at 2021-11-21 13:13:18 -0300
+  [1m[35m (5.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (uninitialized constant AppsController
+Did you mean?  PagesController):
+  
+Started GET "/" for ::1 at 2021-11-21 13:14:07 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 1974)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 76.7ms | Allocations: 6900)
+Completed 200 OK in 98ms (Views: 88.5ms | ActiveRecord: 0.0ms | Allocations: 9354)
+
+
+Started GET "/" for ::1 at 2021-11-21 13:14:37 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1836)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 4962)
+Completed 200 OK in 74ms (Views: 70.8ms | ActiveRecord: 0.0ms | Allocations: 6231)
+
+
+Started GET "/" for ::1 at 2021-11-21 13:51:15 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 3453)
+Completed 200 OK in 40ms (Views: 37.9ms | Allocations: 4754)
+
+
+Started GET "/" for ::1 at 2021-11-21 13:54:56 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 56)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: da16e19fdf11bfc03b27
+Version: webpack 4.46.0
+Time: 7385ms
+Built at: 21/11/2021 13:55:14
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-0d56cf3de02b69244e69.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-0d56cf3de02b69244e69.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-0d56cf3de02b69244e69.js js/index-0d56cf3de02b69244e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 1.04 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 10:42-48
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 17639.3ms | Allocations: 4484)
+Completed 200 OK in 17647ms (Views: 17646.1ms | Allocations: 5089)
+
+
+Started GET "/" for ::1 at 2021-11-21 13:55:43 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 7845b5a579b3286fbb08
+Version: webpack 4.46.0
+Time: 7036ms
+Built at: 21/11/2021 13:55:59
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-b58397e373bb39b9d6c4.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-b58397e373bb39b9d6c4.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-b58397e373bb39b9d6c4.js js/index-b58397e373bb39b9d6c4.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 1.01 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 10:42-48
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 15735.2ms | Allocations: 4109)
+Completed 200 OK in 15753ms (Views: 15752.5ms | Allocations: 4440)
+
+
+Started GET "/" for ::1 at 2021-11-21 13:58:47 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 7efdaed91f00141e4f7d
+Version: webpack 4.46.0
+Time: 6757ms
+Built at: 21/11/2021 13:59:02
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-6d74dbd21f4185659709.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-6d74dbd21f4185659709.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-6d74dbd21f4185659709.js js/index-6d74dbd21f4185659709.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 1.01 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 10:42-48
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 14822.9ms | Allocations: 4104)
+Completed 200 OK in 14834ms (Views: 14833.1ms | Allocations: 4420)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:03:47 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 0ff77833810d4e714d90
+Version: webpack 4.46.0
+Time: 7107ms
+Built at: 21/11/2021 14:04:03
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-369763a4a17f762b8c16.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-369763a4a17f762b8c16.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-369763a4a17f762b8c16.js js/index-369763a4a17f762b8c16.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 1.01 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 17:38-44
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 15740.3ms | Allocations: 4117)
+Completed 200 OK in 15744ms (Views: 15742.8ms | Allocations: 4434)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:05:03 -0300
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 343)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 184.3ms | Allocations: 5840)
+Completed 200 OK in 215ms (Views: 200.1ms | ActiveRecord: 0.0ms | Allocations: 9155)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:11:18 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: c1498811e3f4de405cc1
+Version: webpack 4.46.0
+Time: 6848ms
+Built at: 21/11/2021 14:11:33
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-1f40950b51679ecfe4bb.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-1f40950b51679ecfe4bb.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-1f40950b51679ecfe4bb.js js/index-1f40950b51679ecfe4bb.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 1.01 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 18:38-44
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 15060.5ms | Allocations: 4323)
+Completed 200 OK in 15073ms (Views: 15072.5ms | Allocations: 4706)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:13:18 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: bdf51078160942bdf6b2
+Version: webpack 4.46.0
+Time: 6639ms
+Built at: 21/11/2021 14:13:33
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-f6792237d6b5f70b3fe7.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-f6792237d6b5f70b3fe7.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-f6792237d6b5f70b3fe7.js js/index-f6792237d6b5f70b3fe7.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 843 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 22 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 14709.6ms | Allocations: 4171)
+Completed 200 OK in 14727ms (Views: 14719.0ms | Allocations: 4487)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:20:14 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 58d887a83da901ef87eb
+Version: webpack 4.46.0
+Time: 7030ms
+Built at: 21/11/2021 14:20:29
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-f3164c06abad3be63208.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-f3164c06abad3be63208.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-f3164c06abad3be63208.js js/index-f3164c06abad3be63208.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 859 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 18:38-44
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+ERROR in ./app/javascript/packs/index.jsx
+Module not found: Error: Can't resolve 'bootstrap/dist/css/bootstrap.min.css' in '/home/italo/Documentos/project_ruby/app/javascript/packs'
+ @ ./app/javascript/packs/index.jsx 8:0-46
+
+  Rendered layout layouts/application.html.erb (Duration: 15623.3ms | Allocations: 4109)
+Completed 200 OK in 15639ms (Views: 15638.3ms | Allocations: 4425)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:21:08 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 6884dad7b1588ca46271
+Version: webpack 4.46.0
+Time: 6855ms
+Built at: 21/11/2021 14:21:23
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-18adad187f6d6b4d892b.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-18adad187f6d6b4d892b.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-18adad187f6d6b4d892b.js js/index-18adad187f6d6b4d892b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 863 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 18:38-44
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 14671.1ms | Allocations: 4108)
+Completed 200 OK in 14676ms (Views: 14675.4ms | Allocations: 4424)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:22:09 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 58d887a83da901ef87eb
+Version: webpack 4.46.0
+Time: 7880ms
+Built at: 21/11/2021 14:22:26
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-f3164c06abad3be63208.js   1.17 MiB        index  [emitted] [immutable]  index
+      js/index-f3164c06abad3be63208.js.map   1.34 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-f3164c06abad3be63208.js js/index-f3164c06abad3be63208.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 859 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 25 hidden modules
+
+ERROR in ./app/javascript/components/App.js 18:38-44
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+ERROR in ./app/javascript/packs/index.jsx
+Module not found: Error: Can't resolve 'bootstrap/dist/css/bootstrap.min.css' in '/home/italo/Documentos/project_ruby/app/javascript/packs'
+ @ ./app/javascript/packs/index.jsx 8:0-46
+
+  Rendered layout layouts/application.html.erb (Duration: 17361.7ms | Allocations: 4115)
+Completed 200 OK in 17372ms (Views: 17371.7ms | Allocations: 4435)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:23:55 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: b61a5b026b8bc1b5a81a
+Version: webpack 4.46.0
+Time: 35486ms
+Built at: 21/11/2021 14:25:01
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-41956b64983163bbe4b6.js   1.92 MiB        index  [emitted] [immutable]  index
+      js/index-41956b64983163bbe4b6.js.map   2.11 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-41956b64983163bbe4b6.js js/index-41956b64983163bbe4b6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 859 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+ERROR in ./app/javascript/components/App.js 17:38-44
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 66573.1ms | Allocations: 4322)
+Completed 200 OK in 66583ms (Views: 66582.3ms | Allocations: 4640)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:26:05 -0300
+  [1m[35m (5.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 343)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 46ba9f99d94863cd414c
+Version: webpack 4.46.0
+Time: 15446ms
+Built at: 21/11/2021 14:26:44
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-1c5faabf7e90e8de2b2a.js   1.92 MiB        index  [emitted] [immutable]  index
+      js/index-1c5faabf7e90e8de2b2a.js.map   2.11 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-1c5faabf7e90e8de2b2a.js js/index-1c5faabf7e90e8de2b2a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 859 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+ERROR in ./app/javascript/components/App.js 17:38-44
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 38137.0ms | Allocations: 7271)
+Completed 200 OK in 38258ms (Views: 38211.5ms | ActiveRecord: 0.0ms | Allocations: 10586)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:28:18 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 370706be18aa91048fa2
+Version: webpack 4.46.0
+Time: 18468ms
+Built at: 21/11/2021 14:28:46
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-921b7a449092b936dd33.js   1.92 MiB        index  [emitted] [immutable]  index
+      js/index-921b7a449092b936dd33.js.map   2.11 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-921b7a449092b936dd33.js js/index-921b7a449092b936dd33.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 859 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+ERROR in ./app/javascript/components/App.js 17:38-44
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 29067.4ms | Allocations: 4353)
+Completed 200 OK in 29073ms (Views: 29072.4ms | ActiveRecord: 0.0ms | Allocations: 4742)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:32:38 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: de07e034234f81c7a08f
+Version: webpack 4.46.0
+Time: 13398ms
+Built at: 21/11/2021 14:33:02
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-5471740859545537d679.js   1.92 MiB        index  [emitted] [immutable]  index
+      js/index-5471740859545537d679.js.map   2.11 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-5471740859545537d679.js js/index-5471740859545537d679.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 859 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+ERROR in ./app/javascript/components/App.js 10:42-48
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 24919.8ms | Allocations: 4131)
+Completed 200 OK in 24944ms (Views: 24943.6ms | Allocations: 4452)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:39:43 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 265f4bf910bf705ae258
+Version: webpack 4.46.0
+Time: 13947ms
+Built at: 21/11/2021 14:40:29
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-18d22e5bcd1d2c01e17a.js   1.92 MiB        index  [emitted] [immutable]  index
+      js/index-18d22e5bcd1d2c01e17a.js.map   2.11 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-18d22e5bcd1d2c01e17a.js js/index-18d22e5bcd1d2c01e17a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 859 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+ERROR in ./app/javascript/components/App.js 10:42-48
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 46446.9ms | Allocations: 4271)
+Completed 200 OK in 46472ms (Views: 46471.9ms | Allocations: 4591)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-21 14:41:52 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 90.7ms | Allocations: 2929)
+Completed 200 OK in 117ms (Views: 112.0ms | Allocations: 3247)
+
+
+Started GET "/" for ::1 at 2021-11-21 14:45:18 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 4931)
+Completed 200 OK in 81ms (Views: 74.3ms | Allocations: 6172)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-21 14:45:31 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 56.2ms | Allocations: 4375)
+Completed 200 OK in 80ms (Views: 79.5ms | Allocations: 4707)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-21 14:46:30 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 48.2ms | Allocations: 132)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 238.1ms | Allocations: 3445)
+Completed 200 OK in 258ms (Views: 256.5ms | Allocations: 4642)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-21 14:47:11 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: e78fbbab3020a184f5d3
+Version: webpack 4.46.0
+Time: 13674ms
+Built at: 21/11/2021 14:47:34
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-f42db740384029805837.js   1.92 MiB        index  [emitted] [immutable]  index
+      js/index-f42db740384029805837.js.map   2.11 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-f42db740384029805837.js js/index-f42db740384029805837.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 859 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+ERROR in ./app/javascript/components/App.js 11:42-48
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 22810.7ms | Allocations: 4164)
+Completed 200 OK in 22816ms (Views: 22815.5ms | Allocations: 4496)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-21 14:50:16 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: 4462830b4cc5a0822499
+Version: webpack 4.46.0
+Time: 13361ms
+Built at: 21/11/2021 14:50:49
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-1a44d054f3a6533ffba7.js   1.92 MiB        index  [emitted] [immutable]  index
+      js/index-1a44d054f3a6533ffba7.js.map   2.11 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-1a44d054f3a6533ffba7.js js/index-1a44d054f3a6533ffba7.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 859 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 33968.9ms | Allocations: 4218)
+Completed 200 OK in 33990ms (Views: 33989.7ms | Allocations: 4534)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-21 14:51:43 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 64.7ms | Allocations: 2947)
+Completed 200 OK in 69ms (Views: 68.7ms | Allocations: 3264)
+
+
+Started GET "/" for 127.0.0.1 at 2021-11-21 14:54:33 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 137)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: c104820608c16916d69a
+Version: webpack 4.46.0
+Time: 20125ms
+Built at: 21/11/2021 14:55:03
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-3050dfe833fe353b7af0.js   1.92 MiB         init  [emitted] [immutable]  init
+       js/init-3050dfe833fe353b7af0.js.map   2.11 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-3050dfe833fe353b7af0.js js/init-3050dfe833fe353b7af0.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 858 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 28 hidden modules
+
+ERROR in ./app/javascript/components/App.js 10:42-48
+"export 'Switch' was not found in 'react-router-dom'
+ @ ./app/javascript/packs/init.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 29898.7ms | Allocations: 4684)
+Completed 200 OK in 29908ms (Views: 29906.2ms | Allocations: 5981)
+
+
+Started GET "/" for ::1 at 2021-11-21 17:14:03 -0300
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 343)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2021-11-21 17:14:05 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 208fc5c3ecf678be57b7
+Version: webpack 4.46.0
+Time: 31818ms
+Built at: 21/11/2021 17:14:53
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-8a50341b22aa8ec3de96.js   1.92 MiB         init  [emitted] [immutable]  init
+       js/init-8a50341b22aa8ec3de96.js.map   2.11 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-8a50341b22aa8ec3de96.js js/init-8a50341b22aa8ec3de96.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 27 hidden modules
+
+ERROR in ./app/javascript/components/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/italo/Documentos/project_ruby/app/javascript/components/App.js: Unexpected token (11:53)
+
+   9 |     return (
+  10 |         <Routes>
+> 11 |             <Route exact path="/" element={<Airlines } />
+     |                                                      ^
+  12 |             <Route exact path="/airlines/:slug" component={Airline} />
+  13 |         </Routes>
+  14 |     )
+    at Object._raise (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:541:17)
+    at Object.raiseWithData (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:534:17)
+    at Object.raise (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:495:17)
+    at Object.unexpected (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:3587:16)
+    at Object.jsxParseIdentifier (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7259:12)
+    at Object.jsxParseNamespacedName (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7269:23)
+    at Object.jsxParseAttribute (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7354:22)
+    at Object.jsxParseOpeningElementAfterName (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7375:28)
+    at Object.jsxParseOpeningElementAt (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7368:17)
+    at Object.jsxParseElementAt (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7400:33)
+    at Object.jsxParseElement (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7474:17)
+    at Object.parseExprAtom (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7481:19)
+    at Object.parseExprSubscripts (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11564:23)
+    at Object.parseUpdate (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11544:21)
+    at Object.parseMaybeUnary (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11519:23)
+    at Object.parseMaybeUnaryOrPrivate (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11333:61)
+    at Object.parseExprOps (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11340:23)
+    at Object.parseMaybeConditional (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11310:23)
+    at Object.parseMaybeAssign (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11273:21)
+    at Object.parseExpressionBase (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11209:23)
+    at allowInAnd (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11203:39)
+    at Object.allowInAnd (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:13101:12)
+    at Object.parseExpression (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11203:17)
+    at Object.jsxParseExpressionContainer (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7336:31)
+    at Object.jsxParseAttributeValue (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7303:21)
+    at Object.jsxParseAttribute (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7355:38)
+    at Object.jsxParseOpeningElementAfterName (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7375:28)
+    at Object.jsxParseOpeningElementAt (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7368:17)
+    at Object.jsxParseElementAt (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7400:33)
+    at Object.jsxParseElementAt (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7416:32)
+ @ ./app/javascript/packs/init.jsx 9:0-36 18:38-41
+
+  Rendered layout layouts/application.html.erb (Duration: 50293.1ms | Allocations: 12212)
+Completed 200 OK in 50388ms (Views: 50349.7ms | ActiveRecord: 0.0ms | Allocations: 15516)
+
+
+[Webpacker] Compilation failed:
+Hash: 208fc5c3ecf678be57b7
+Version: webpack 4.46.0
+Time: 30280ms
+Built at: 21/11/2021 17:14:54
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-8a50341b22aa8ec3de96.js   1.92 MiB         init  [emitted] [immutable]  init
+       js/init-8a50341b22aa8ec3de96.js.map   2.11 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-8a50341b22aa8ec3de96.js js/init-8a50341b22aa8ec3de96.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 27 hidden modules
+
+ERROR in ./app/javascript/components/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/italo/Documentos/project_ruby/app/javascript/components/App.js: Unexpected token (11:53)
+
+   9 |     return (
+  10 |         <Routes>
+> 11 |             <Route exact path="/" element={<Airlines } />
+     |                                                      ^
+  12 |             <Route exact path="/airlines/:slug" component={Airline} />
+  13 |         </Routes>
+  14 |     )
+    at Object._raise (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:541:17)
+    at Object.raiseWithData (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:534:17)
+    at Object.raise (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:495:17)
+    at Object.unexpected (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:3587:16)
+    at Object.jsxParseIdentifier (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7259:12)
+    at Object.jsxParseNamespacedName (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7269:23)
+    at Object.jsxParseAttribute (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7354:22)
+    at Object.jsxParseOpeningElementAfterName (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7375:28)
+    at Object.jsxParseOpeningElementAt (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7368:17)
+    at Object.jsxParseElementAt (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7400:33)
+    at Object.jsxParseElement (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7474:17)
+    at Object.parseExprAtom (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7481:19)
+    at Object.parseExprSubscripts (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11564:23)
+    at Object.parseUpdate (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11544:21)
+    at Object.parseMaybeUnary (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11519:23)
+    at Object.parseMaybeUnaryOrPrivate (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11333:61)
+    at Object.parseExprOps (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11340:23)
+    at Object.parseMaybeConditional (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11310:23)
+    at Object.parseMaybeAssign (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11273:21)
+    at Object.parseExpressionBase (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11209:23)
+    at allowInAnd (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11203:39)
+    at Object.allowInAnd (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:13101:12)
+    at Object.parseExpression (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:11203:17)
+    at Object.jsxParseExpressionContainer (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7336:31)
+    at Object.jsxParseAttributeValue (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7303:21)
+    at Object.jsxParseAttribute (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7355:38)
+    at Object.jsxParseOpeningElementAfterName (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7375:28)
+    at Object.jsxParseOpeningElementAt (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7368:17)
+    at Object.jsxParseElementAt (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7400:33)
+    at Object.jsxParseElementAt (/home/italo/Documentos/project_ruby/node_modules/@babel/parser/lib/index.js:7416:32)
+ @ ./app/javascript/packs/init.jsx 9:0-36 18:38-41
+
+  Rendered layout layouts/application.html.erb (Duration: 49263.9ms | Allocations: 8903)
+Completed 200 OK in 49277ms (Views: 49272.7ms | ActiveRecord: 0.0ms | Allocations: 9299)
+
+
+Started GET "/" for ::1 at 2021-11-21 17:15:47 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: 6f0462f0c3e325dcb07a
+Version: webpack 4.46.0
+Time: 35483ms
+Built at: 21/11/2021 17:16:37
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-bd559fcec1f70e885028.js   1.92 MiB         init  [emitted] [immutable]  init
+       js/init-bd559fcec1f70e885028.js.map   2.11 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-bd559fcec1f70e885028.js js/init-bd559fcec1f70e885028.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 50283.3ms | Allocations: 4492)
+Completed 200 OK in 50299ms (Views: 50291.5ms | ActiveRecord: 0.0ms | Allocations: 4878)
+
+
+Started GET "/airlines/aqui" for ::1 at 2021-11-21 17:17:25 -0300
+Processing by PagesController#index as HTML
+  Parameters: {"path"=>"airlines/aqui"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.0ms | Allocations: 2947)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms | Allocations: 3270)
+
+
+Started GET "/airlines/aqui" for ::1 at 2021-11-21 17:18:48 -0300
+Processing by PagesController#index as HTML
+  Parameters: {"path"=>"airlines/aqui"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: 2eff34725d6edd4b0817
+Version: webpack 4.46.0
+Time: 15164ms
+Built at: 21/11/2021 17:19:11
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-40ab0468c4fbde21e2b3.js   1.92 MiB         init  [emitted] [immutable]  init
+       js/init-40ab0468c4fbde21e2b3.js.map   2.11 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-40ab0468c4fbde21e2b3.js js/init-40ab0468c4fbde21e2b3.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 23382.4ms | Allocations: 4203)
+Completed 200 OK in 23388ms (Views: 23387.9ms | ActiveRecord: 0.0ms | Allocations: 4526)
+
+
+Started GET "/airlines/aqui" for ::1 at 2021-11-21 17:21:41 -0300
+Processing by PagesController#index as HTML
+  Parameters: {"path"=>"airlines/aqui"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: 9c20f5bb3dac38e2c377
+Version: webpack 4.46.0
+Time: 14990ms
+Built at: 21/11/2021 17:22:06
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-ec83450d834676a88a80.js   1.92 MiB         init  [emitted] [immutable]  init
+       js/init-ec83450d834676a88a80.js.map   2.11 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-ec83450d834676a88a80.js js/init-ec83450d834676a88a80.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 25621.8ms | Allocations: 4210)
+Completed 200 OK in 25633ms (Views: 25632.6ms | Allocations: 4528)
+
+
+Started GET "/airlines/pingola" for ::1 at 2021-11-21 17:22:31 -0300
+Processing by PagesController#index as HTML
+  Parameters: {"path"=>"airlines/pingola"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.3ms | Allocations: 2946)
+Completed 200 OK in 79ms (Views: 78.9ms | Allocations: 3263)
+
+
+Started GET "/airlines/pingola" for ::1 at 2021-11-22 13:29:13 -0300
+  [1m[35m (19.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#index as HTML
+  Parameters: {"path"=>"airlines/pingola"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 342)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 542f99b6675499481d9b
+Version: webpack 4.46.0
+Time: 31104ms
+Built at: 22/11/2021 13:30:08
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-4e074f048aeb655594d8.js   1.93 MiB         init  [emitted] [immutable]  init
+       js/init-4e074f048aeb655594d8.js.map   2.11 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-4e074f048aeb655594d8.js js/init-4e074f048aeb655594d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+ERROR in ./app/javascript/components/Airline/Airline.js
+Module not found: Error: Can't resolve 'axios' in '/home/italo/Documentos/project_ruby/app/javascript/components/Airline'
+ @ ./app/javascript/components/Airline/Airline.js 17:0-26 40:4-9
+ @ ./app/javascript/components/App.js
+ @ ./app/javascript/packs/init.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 54832.5ms | Allocations: 7316)
+Completed 200 OK in 54885ms (Views: 54848.4ms | ActiveRecord: 0.0ms | Allocations: 10631)
+
+
+Started GET "/airlines" for ::1 at 2021-11-22 13:30:21 -0300
+Processing by PagesController#index as HTML
+  Parameters: {"path"=>"airlines"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.2ms | Allocations: 3132)
+Completed 200 OK in 71ms (Views: 70.7ms | ActiveRecord: 0.0ms | Allocations: 3524)
+
+
+Started GET "/" for ::1 at 2021-11-22 13:30:32 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.5ms | Allocations: 2947)
+Completed 200 OK in 68ms (Views: 67.8ms | ActiveRecord: 0.0ms | Allocations: 3271)
+
+
+Started GET "/" for ::1 at 2021-11-22 13:30:41 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 2946)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms | Allocations: 3265)
+
+
+Started GET "/" for ::1 at 2021-11-22 13:31:53 -0300
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 343)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: b322d1ca53ff83afb05b
+Version: webpack 4.46.0
+Time: 16941ms
+Built at: 22/11/2021 13:32:25
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-de9dc338cd481527b31b.js   1.93 MiB        index  [emitted] [immutable]  index
+      js/index-de9dc338cd481527b31b.js.map   2.11 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint index = js/index-de9dc338cd481527b31b.js js/index-de9dc338cd481527b31b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 822 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+ERROR in ./app/javascript/components/Airline/Airline.js
+Module not found: Error: Can't resolve 'axios' in '/home/italo/Documentos/project_ruby/app/javascript/components/Airline'
+ @ ./app/javascript/components/Airline/Airline.js 17:0-26 40:4-9
+ @ ./app/javascript/components/App.js
+ @ ./app/javascript/packs/index.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 31776.5ms | Allocations: 10098)
+Completed 500 Internal Server Error in 31800ms (ActiveRecord: 0.0ms | Allocations: 13360)
+
+
+  
+ActionView::Template::Error (Webpacker can't find init.js in /home/italo/Documentos/project_ruby/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-be412d64645010827f4e.js",
+  "application.js.map": "/packs/js/application-be412d64645010827f4e.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-be412d64645010827f4e.js"
+      ],
+      "js.map": [
+        "/packs/js/application-be412d64645010827f4e.js.map"
+      ]
+    },
+    "index": {
+      "js": [
+        "/packs/js/index-de9dc338cd481527b31b.js"
+      ],
+      "js.map": [
+        "/packs/js/index-de9dc338cd481527b31b.js.map"
+      ]
+    }
+  },
+  "index.js": "/packs/js/index-de9dc338cd481527b31b.js",
+  "index.js.map": "/packs/js/index-de9dc338cd481527b31b.js.map"
+}
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7:     <%= stylesheet_link_tag 'application', media: 'all' %>
+     8:     <%= javascript_pack_tag 'init' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2021-11-22 13:33:02 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 542f99b6675499481d9b
+Version: webpack 4.46.0
+Time: 13863ms
+Built at: 22/11/2021 13:33:34
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-4e074f048aeb655594d8.js   1.93 MiB         init  [emitted] [immutable]  init
+       js/init-4e074f048aeb655594d8.js.map   2.11 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-4e074f048aeb655594d8.js js/init-4e074f048aeb655594d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 29 hidden modules
+
+ERROR in ./app/javascript/components/Airline/Airline.js
+Module not found: Error: Can't resolve 'axios' in '/home/italo/Documentos/project_ruby/app/javascript/components/Airline'
+ @ ./app/javascript/components/Airline/Airline.js 17:0-26 40:4-9
+ @ ./app/javascript/components/App.js
+ @ ./app/javascript/packs/init.jsx
+
+  Rendered layout layouts/application.html.erb (Duration: 32422.3ms | Allocations: 4449)
+Completed 200 OK in 32449ms (Views: 32448.7ms | ActiveRecord: 0.0ms | Allocations: 4849)
+
+
+Started GET "/" for ::1 at 2021-11-22 13:56:06 -0300
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 19.2ms | Allocations: 343)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: f7e908b250709b919ed6
+Version: webpack 4.46.0
+Time: 18770ms
+Built at: 22/11/2021 13:56:33
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-3ca532227d8da98a5045.js   1.99 MiB         init  [emitted] [immutable]  init
+       js/init-3ca532227d8da98a5045.js.map   2.18 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-3ca532227d8da98a5045.js js/init-3ca532227d8da98a5045.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 59 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 26784.7ms | Allocations: 7216)
+Completed 200 OK in 26826ms (Views: 26817.7ms | ActiveRecord: 0.0ms | Allocations: 10531)
+
+
+Started GET "/" for ::1 at 2021-11-22 16:01:02 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: b3b5ee4fa468373a8f95
+Version: webpack 4.46.0
+Time: 14889ms
+Built at: 22/11/2021 16:01:27
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-a11c9e53c644fc19b3b4.js   1.99 MiB         init  [emitted] [immutable]  init
+       js/init-a11c9e53c644fc19b3b4.js.map   2.18 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-a11c9e53c644fc19b3b4.js js/init-a11c9e53c644fc19b3b4.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 59 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 25255.1ms | Allocations: 4340)
+Completed 200 OK in 25261ms (Views: 25260.0ms | Allocations: 4723)
+
+
+Started GET "/" for ::1 at 2021-11-22 16:03:00 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: 6fb462fa5ed1bd2d6a7a
+Version: webpack 4.46.0
+Time: 14452ms
+Built at: 22/11/2021 16:03:22
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-d9042c38565aec3ece6b.js   1.99 MiB         init  [emitted] [immutable]  init
+       js/init-d9042c38565aec3ece6b.js.map   2.18 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-d9042c38565aec3ece6b.js js/init-d9042c38565aec3ece6b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 59 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 22293.4ms | Allocations: 4200)
+Completed 200 OK in 22303ms (Views: 22302.2ms | Allocations: 4516)
+
+
+Started GET "/" for ::1 at 2021-11-22 16:04:33 -0300
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 343)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: ab98250f52dd1a0496fe
+Version: webpack 4.46.0
+Time: 14111ms
+Built at: 22/11/2021 16:04:55
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-2400c50494e35f887b50.js      2 MiB         init  [emitted] [immutable]  init
+       js/init-2400c50494e35f887b50.js.map   2.18 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-2400c50494e35f887b50.js js/init-2400c50494e35f887b50.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 59 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 22548.9ms | Allocations: 7208)
+Completed 200 OK in 22578ms (Views: 22564.0ms | ActiveRecord: 0.0ms | Allocations: 10523)
+
+
+Started GET "/api/v1/airlines.json" for ::1 at 2021-11-22 16:04:57 -0300
+Processing by Api::V1::AirlinesController#index as JSON
+  [1m[36mAirline Load (22.2ms)[0m  [1m[34mSELECT `airlines`.* FROM `airlines`[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (29.9ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (7.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (12.7ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 2[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (6.9ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 2[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (12.2ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 3[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (8.0ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 3[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (5.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 4[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (6.8ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 4[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 5[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (6.3ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 5[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (6.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 6[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (5.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 6[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (7.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 7[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (6.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 7[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 8[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 8[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (6.1ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 9[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (5.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 9[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 10[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.7ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 10[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 11[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (7.7ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 11[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 12[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (3.3ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 12[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (5.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 13[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (21.0ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 13[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (7.3ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 15[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 15[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+Completed 200 OK in 1027ms (Views: 0.2ms | ActiveRecord: 342.1ms | Allocations: 48330)
+
+
+Started GET "/" for ::1 at 2021-11-22 16:05:37 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: fac40bcfd5c59dd10dd2
+Version: webpack 4.46.0
+Time: 14313ms
+Built at: 22/11/2021 16:06:03
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-e90196e52f4039a61fdb.js      2 MiB         init  [emitted] [immutable]  init
+       js/init-e90196e52f4039a61fdb.js.map   2.18 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-e90196e52f4039a61fdb.js js/init-e90196e52f4039a61fdb.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 59 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 26124.7ms | Allocations: 4408)
+Completed 200 OK in 26140ms (Views: 26139.2ms | ActiveRecord: 0.0ms | Allocations: 4763)
+
+
+Started GET "/api/v1/airlines.json" for ::1 at 2021-11-22 16:06:05 -0300
+Processing by Api::V1::AirlinesController#index as JSON
+  [1m[36mAirline Load (7.7ms)[0m  [1m[34mSELECT `airlines`.* FROM `airlines`[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (10.0ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (9.3ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (16.8ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 2[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (12.4ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 2[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (45.2ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 3[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (20.8ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 3[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (6.8ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 4[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (9.3ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 4[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (9.6ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 5[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (9.4ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 5[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (11.6ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 6[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (9.2ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 6[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (8.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 7[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 7[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (4.2ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 8[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (9.7ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 8[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (16.6ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 9[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (14.3ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 9[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (16.2ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 10[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (19.2ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 10[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 11[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (11.8ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 11[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (16.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 12[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (27.4ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 12[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (8.6ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 13[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (5.3ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 13[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 15[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 15[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+Completed 200 OK in 879ms (Views: 0.2ms | ActiveRecord: 347.4ms | Allocations: 30239)
+
+
+Started GET "/api/v1/airlines.json" for ::1 at 2021-11-22 16:06:06 -0300
+Processing by Api::V1::AirlinesController#index as JSON
+  [1m[36mAirline Load (2.3ms)[0m  [1m[34mSELECT `airlines`.* FROM `airlines`[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (7.0ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (4.9ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (6.1ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 2[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (20.0ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 2[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (10.3ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 3[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (10.0ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 3[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (8.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 4[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 4[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 5[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (14.7ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 5[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (11.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 6[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (9.4ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 6[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 7[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 7[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 8[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (5.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 8[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (17.9ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 9[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (4.1ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 9[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 10[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.9ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 10[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 11[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 11[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 12[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 12[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 13[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.9ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 13[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 15[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.4ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 15[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+Completed 200 OK in 543ms (Views: 0.4ms | ActiveRecord: 177.9ms | Allocations: 23895)
+
+
+Started GET "/" for ::1 at 2021-11-22 16:27:43 -0300
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/italo/Documentos/project_ruby/public/packs
+[Webpacker] Hash: 0e235d3b65c1038a5f9a
+Version: webpack 4.46.0
+Time: 17034ms
+Built at: 22/11/2021 16:28:14
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-be412d64645010827f4e.js    125 KiB  application  [emitted] [immutable]  application
+js/application-be412d64645010827f4e.js.map    139 KiB  application  [emitted] [dev]        application
+           js/init-e0aa4cbd33d3b32690a1.js      2 MiB         init  [emitted] [immutable]  init
+       js/init-e0aa4cbd33d3b32690a1.js.map   2.18 MiB         init  [emitted] [dev]        init
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-be412d64645010827f4e.js js/application-be412d64645010827f4e.js.map
+Entrypoint init = js/init-e0aa4cbd33d3b32690a1.js js/init-e0aa4cbd33d3b32690a1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/init.jsx] 821 bytes {init} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 59 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 31269.8ms | Allocations: 4285)
+Completed 200 OK in 31282ms (Views: 31281.8ms | Allocations: 4602)
+
+
+Started GET "/api/v1/airlines.json" for ::1 at 2021-11-22 16:28:16 -0300
+Processing by Api::V1::AirlinesController#index as JSON
+  [1m[36mAirline Load (17.6ms)[0m  [1m[34mSELECT `airlines`.* FROM `airlines`[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (35.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (25.9ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (46.7ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 2[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (14.1ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 2[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (28.8ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 3[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (17.1ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 3[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (8.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 4[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (11.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 4[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (11.2ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 5[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (7.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 5[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (11.0ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 6[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (4.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 6[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (10.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 7[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (6.4ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 7[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (19.0ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 8[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (8.2ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 8[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (7.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 9[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (9.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 9[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 10[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (8.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 10[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (8.1ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 11[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (6.7ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 11[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (5.5ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 12[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (9.0ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 12[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (4.7ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 13[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (6.0ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 13[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 15[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (4.9ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 15[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+Completed 200 OK in 880ms (Views: 0.3ms | ActiveRecord: 373.9ms | Allocations: 28737)
+
+
+Started GET "/api/v1/airlines.json" for ::1 at 2021-11-22 16:28:17 -0300
+Processing by Api::V1::AirlinesController#index as JSON
+  [1m[36mAirline Load (18.5ms)[0m  [1m[34mSELECT `airlines`.* FROM `airlines`[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (15.3ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (20.1ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 1[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (15.2ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 2[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (10.7ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 2[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (10.4ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 3[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (12.9ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 3[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (8.7ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 4[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (9.4ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 4[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (11.6ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 5[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (3.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 5[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (27.7ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 6[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (7.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 6[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (9.3ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 7[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (4.4ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 7[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (8.8ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 8[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (5.4ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 8[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (7.7ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 9[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (8.6ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 9[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (13.8ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 10[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (4.5ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 10[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (10.2ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 11[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (6.0ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 11[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 12[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (2.8ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 12[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 13[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (6.8ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 13[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT `reviews`.`id` FROM `reviews` WHERE `reviews`.`airline_id` = 15[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+  [1m[36mReview Load (4.1ms)[0m  [1m[34mSELECT `reviews`.* FROM `reviews` WHERE `reviews`.`airline_id` = 15[0m
+  ↳ app/controllers/api/v1/airlines_controller.rb:11:in `index'
+Completed 200 OK in 871ms (Views: 2.7ms | ActiveRecord: 272.2ms | Allocations: 23893)
+
+

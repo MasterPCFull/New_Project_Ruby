@@ -10,15 +10,15 @@
         "/packs/js/application-be412d64645010827f4e.js.map"
       ]
     },
-    "index": {
+    "init": {
       "js": [
-        "/packs/js/index-9789947fd3b03b49b28f.js"
+        "/packs/js/init-e0aa4cbd33d3b32690a1.js"
       ],
       "js.map": [
-        "/packs/js/index-9789947fd3b03b49b28f.js.map"
+        "/packs/js/init-e0aa4cbd33d3b32690a1.js.map"
       ]
     }
   },
-  "index.js": "/packs/js/index-9789947fd3b03b49b28f.js",
-  "index.js.map": "/packs/js/index-9789947fd3b03b49b28f.js.map"
+  "init.js": "/packs/js/init-e0aa4cbd33d3b32690a1.js",
+  "init.js.map": "/packs/js/init-e0aa4cbd33d3b32690a1.js.map"
 }
